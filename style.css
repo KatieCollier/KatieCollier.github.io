@@ -111,7 +111,7 @@ section */
 #hobbies h1
 {
     background-color: var(--highlights);
-    color: var(--main_color);
+    color: var(--main-color);
     text-transform: uppercase;
     text-align: center;
     font-size: 1.5em;
