@@ -196,7 +196,7 @@ section */
 
 .date
 {
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -204,7 +204,8 @@ section */
 
 .info
 {
-    width: 70%;
+    width: 65%;
+    padding-left: 1%;
 }
 
 #main_text p
@@ -248,12 +249,13 @@ section */
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 5%;
 }
 
-#recommendation1
+#recommendation2
 {
-    margin-right: 30%;
+    margin-right: 20%;
 }
 
 #r_grid h2
@@ -343,6 +345,24 @@ section */
     #recommendations
     {
         width: 100%;
+    }
+
+    /* change font-size of dates in grids*/
+    .date
+    {
+        font-size: 0.9em;
+    }
+
+    /* change font-size of reference names */
+    #recommendations h2
+    {
+        font-size: 1em;
+    }
+
+    #recommendation2
+    {
+        margin-right: 5%;
+        padding-left: 1%;
     }
 
 
