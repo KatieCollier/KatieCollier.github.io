@@ -391,6 +391,13 @@ section */
         width: 100%;
     }
 
+    /* Change size of grid titles so they can fit entirely on smaller screens*/
+    #main_text h2, #recommendations h1
+    {
+        font-size: 1.7em;
+        font-weight: normal;
+    }
+
     /* change grids to full-sized columns*/
     .line
     {
