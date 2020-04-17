@@ -197,7 +197,7 @@ section */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .date
@@ -264,16 +264,16 @@ section */
 #main_text h3
 {
     font-size: 1.2em;
-    font-weight: normal;
+    font-weight: 500;
     text-transform: uppercase;
-    margin: 0% 0% 1.5% 0%;
+    margin: 0% 0% 4% 0%;
 }
 
 #main_text h4
 {
     font-size: 1.1em;
     font-weight: normal;
-    margin: 0% 0% 1.5% 0%;
+    margin: 0% 0% 4% 0%;
 }
 
 .grid p
@@ -308,6 +308,8 @@ section */
     #full_text /* center page on the screen */
     {
         width: 100%;
+        box-sizing: border-box;
+        padding: 0% 5% 0% 5%;
     }
 
     #page_top /* change alignement of the top of the page */
@@ -368,6 +370,11 @@ section */
         bottom: 0;
     }
 
+    #about
+    {
+        padding-bottom: 5%;
+    }
+
     #footer /* change alinement of foot of page */
     {
         display: flex;
@@ -384,22 +391,47 @@ section */
         width: 100%;
     }
 
-    /* change font-size of dates in grids*/
-    .date
+    /* change grids to full-sized columns*/
+    .line
     {
-        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
     }
 
-    /* change font-size of reference names */
-    #recommendations h2
+    .date
     {
-        font-size: 1em;
+        width: 100%;
+    }
+
+    .date br
+    {
+        display: none;
+    }
+
+    .info
+    {
+        width: 100%;
+    }
+
+    /* reorganisation of references for easier reading */
+    
+    #recommendation1
+    {
+        width: 50%;
+        padding: 0% 5% 0% 0%;
     }
 
     #recommendation2
     {
-        margin-right: 5%;
-        padding-left: 1%;
+        width: 50%;
+        margin-right: 0%;
+        padding: 0% 0% 0% 5%;
+    }
+
+    #recommendations h2
+    {
+        font-size: 1em;
+        font-weight: bold;
     }
 
 
