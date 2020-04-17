@@ -11,7 +11,8 @@ and centering the page so that it doesn't take up
 the whole screen */
 {
     font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 100%;
+    max-width: 1200px;
     margin:auto;
 }
 
@@ -72,10 +73,10 @@ section */
 /*Photo size and position */
 #photo
 {
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     align-self: center;
-    margin: 7% 0% 5% 0%;
+    margin: 21% 0% 5% 0%;
     border: 5px var(--highlights) solid;
     border-radius: 50%;
 }
@@ -90,6 +91,7 @@ section */
     font-size: 1.5em;
     font-weight: normal;
     padding: 5px;
+    margin-top: 8%;
 }
 
 #left_side p{
@@ -137,24 +139,27 @@ section */
 #header
 {
     padding: 2%;
+    margin-top: 10%;
 }
 
 #header h1
 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: normal;
     padding: 0%;
-    margin-bottom: 0.5%;
+    margin: 6% 0% 0.5% 0%;
+    text-transform: uppercase;
 }
 
 #first_name
 {
     color: var(--main-color);
+    font-weight: 500;
 }
 
 #job
 {
-    font-size: 1.7em;
+    font-size: 2em;
     margin-top: 0%;
     position: relative;
     display: inline-block;
@@ -173,8 +178,8 @@ section */
 /* Grid titles */
 #main_text h2, #recommendations h1
 {
-    font-size: 1.5em;
-    font-weight: normal;
+    font-size: 2em;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 0% 0% 0.5% 2%;
     border-bottom: 2px var(--main-color) solid;
@@ -192,6 +197,7 @@ section */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2%;
 }
 
 .date
@@ -208,14 +214,45 @@ section */
     padding-left: 1%;
 }
 
+.outer_point
+{
+    box-sizing: border-box;
+    border: 2px var(--main-color) solid;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.inner_point
+{
+    background-color: var(--main-color);
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.point
+{
+    background-color: var(--main-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.date p
+{
+    padding-left: 20px;
+}
+
 #main_text p
 {
     text-align: justify;
-}
-
-.grid i
-{
-    margin: 0% 4% 0% 4%;
 }
 
 .grid
@@ -229,19 +266,19 @@ section */
     font-size: 1.2em;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 0% 0% 0.7% 0%;
+    margin: 0% 0% 1.5% 0%;
 }
 
 #main_text h4
 {
     font-size: 1.1em;
     font-weight: normal;
-    margin: 0% 0% 0.7% 0%;
+    margin: 0% 0% 1.5% 0%;
 }
 
 .grid p
 {
-    margin-top: 0%;
+    margin-top: 1.5%;
 }
 
 /* Recommendations Grid */
