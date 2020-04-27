@@ -392,7 +392,7 @@ main h4
     }
 
     /* Change size of grid titles so they can fit entirely on smaller screens*/
-    main h2, #recommendations h1
+    main h2, #recommendations h2
     {
         font-size: 1.7em;
         font-weight: normal;
