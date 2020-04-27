@@ -35,7 +35,7 @@ i /* give colours to icons */
     justify-content: space-around;
 }
 
-#left_side
+aside
 {
     background-color: var(--main-color) ;
     width: 30%; /* give size of left section */
@@ -43,12 +43,12 @@ i /* give colours to icons */
     flex-direction: column;
 }
 
-#main_text
+main
 {
     width: 65%; /* give size of right section */
 }
 
-#footer /* set the bottom of the page side by side */
+footer /* set the bottom of the page side by side */
 {
     display: flex;
     flex-direction: row;
@@ -82,7 +82,7 @@ section */
 }
 
 /* Titles format */
-#left_side h1
+aside h3
 {
     background-color: var(--highlights);
     color: var(--main-color);
@@ -94,7 +94,7 @@ section */
     margin-top: 8%;
 }
 
-#left_side p{
+aside p{
     color: white;
 }
 
@@ -110,7 +110,7 @@ section */
     padding: 0% 7% 0% 7%;
 }
 
-#hobbies h1
+#hobbies h3
 {
     background-color: var(--highlights);
     color: var(--main-color);
@@ -136,13 +136,13 @@ section */
 
 /* RIGHT SECTION FORMAT */
 /* Name and subtitle */
-#header
+main header
 {
     padding: 2%;
     margin-top: 10%;
 }
 
-#header h1
+main header h1
 {
     font-size: 4em;
     font-weight: normal;
@@ -151,7 +151,7 @@ section */
     text-transform: uppercase;
 }
 
-#first_name
+strong
 {
     color: var(--main-color);
     font-weight: 500;
@@ -176,7 +176,7 @@ section */
 }
 
 /* Grid titles */
-#main_text h2, #recommendations h1
+main h2, #recommendations h2
 {
     font-size: 2em;
     font-weight: 600;
@@ -185,7 +185,7 @@ section */
     border-bottom: 2px var(--main-color) solid;
 }
 
-#main_text i, #recommendations i
+main i, #recommendations i
 {
     padding-right: 1%;
 }
@@ -250,7 +250,7 @@ section */
     padding-left: 20px;
 }
 
-#main_text p
+main p
 {
     text-align: justify;
 }
@@ -261,7 +261,7 @@ section */
 }
 
 /* formatting the different levels of the text */
-#main_text h3
+main h3
 {
     font-size: 1.2em;
     font-weight: 500;
@@ -269,7 +269,7 @@ section */
     margin: 0% 0% 4% 0%;
 }
 
-#main_text h4
+main h4
 {
     font-size: 1.1em;
     font-weight: normal;
@@ -319,19 +319,19 @@ section */
         align-items: center;
     }
 
-    #left_side
+    aside
     {
         width: 100%;
     }
 
-    #main_text
+    main
     {
         width: 100%;
     }
 
     /* remove original header and display 
     header_left instead for a nicer mobile site */
-    #header
+    main header
     {
         display: none;
     }
@@ -343,7 +343,7 @@ section */
     }
 
     /* format title that is now visible */
-    #header_left h1
+    #header_left h2
     {
         font-size: 3em;
         background-color: var(--main-color);
@@ -375,7 +375,7 @@ section */
         padding-bottom: 5%;
     }
 
-    #footer /* change alinement of foot of page */
+    footer /* change alinement of foot of page */
     {
         display: flex;
         flex-direction: column;
@@ -392,7 +392,7 @@ section */
     }
 
     /* Change size of grid titles so they can fit entirely on smaller screens*/
-    #main_text h2, #recommendations h1
+    main h2, #recommendations h1
     {
         font-size: 1.7em;
         font-weight: normal;
@@ -435,7 +435,7 @@ section */
         padding: 0% 0% 0% 5%;
     }
 
-    #recommendations h2
+    #recommendations h3
     {
         font-size: 1em;
         font-weight: bold;
